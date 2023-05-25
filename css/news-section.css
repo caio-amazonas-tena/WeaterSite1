@@ -1,0 +1,89 @@
+.news-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.news-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color: white;
+}
+
+.news-banners-wrap {
+    gap: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 60px;
+    box-sizing: border-box;
+}
+
+.news-banner {
+    width: 600px;
+    height: 440px;
+    border-radius: 30px;
+    padding: 20px 20px;
+    padding-bottom: 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+}
+
+.news-banner.-first {
+    background-image: url(../assets/images/Rectangle37.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.news-banner.-second {
+    background-image: url(../assets/images/Rectangle38.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.news-link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    width: fit-content;
+    color: black;
+    background: #FFFFFF;
+    border-radius: 110px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 25px;
+}
+
+.news-banner .-figure {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.-news_text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+    width: 464px;
+    color: white;
+}
+
+.-news_btn {
+    display: flex;
+    background-color: #dfdb14;
+    padding: 15px;
+    border-radius: 110px;
+    cursor: pointer;
+    align-items: center;
+}
